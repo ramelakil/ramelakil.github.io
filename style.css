@@ -1,0 +1,93 @@
+body{
+    background-image: url(./bekron\ hd.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 230, 230);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.wholePage {
+    display: grid; 
+    grid-template-columns: 15% 70% 15%; 
+    gap: 0px 0px; 
+  }
+
+.centerPage {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(231, 231, 231);
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold ;
+    font-size: 20px ;
+}
+
+.poster {
+    height: 400px;
+}
+
+.movieThumbnail {
+    height: 160px;
+    width: 120px;
+    vertical-align: middle;
+}
+
+.listMovie {
+    width: 100%;
+    border: solid salmon;
+    border-width: thin;
+    border-radius: 4px;
+    padding: 0px 16px 12px 16px;
+    
+}
+
+
+.movie {
+    margin-top: 12px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    align-self: auto;
+}
+
+.movie:hover {
+    background-color: teal;
+}
+
+.movieNumber {
+    border-right: solid thin #666;
+    padding: 12px 4px 12px 0px;
+    margin: 4px 4px 4px 0px;
+
+}
+
+.movieTitle {
+    color: rgb(255, 255, 255);
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+
+.desc {
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
